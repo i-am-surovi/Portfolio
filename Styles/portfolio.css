@@ -18,6 +18,17 @@ body{
     padding: 15px 35px;
 }
 
+.section-title{
+    color:#181818 ;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
 /* nav related styles */
 nav{
     display: flex;
@@ -46,12 +57,52 @@ nav a{
 /* Header related styles */
 .header{
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 20px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner .profile-picture{
-    width: 350px;
+    width: 500px;
+}
+.banner-greeting{
+    font-size: 35px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-content{
+    max-width: 600px;
+}
+
+/* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section style */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+    
 }
