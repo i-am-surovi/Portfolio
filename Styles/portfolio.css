@@ -153,9 +153,35 @@ main section{
 
 }
 .resume-container hr{
-    margin: 5px;
+    margin: 30px;
 }
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+/* footer style */
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+.social-links{
+    margin: 25px;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }
